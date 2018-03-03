@@ -1,0 +1,57 @@
+@import url("/usr/share/gnome-shell/theme/gnome-shell.css");
+@font-face {
+	font-family: 'Hack";
+	src: url('/usr/share/fonts/hack/Hack-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+#panel {
+    color: #ffffff;
+    background: #000000;
+    border-color: #ff5500;
+    background-gradient-direction: none;
+    font-family: "Hack";
+    font-size: 1.05em;
+    font-weight: normal;
+    height: 1.75em;
+}
+
+.panel-button {
+    -natural-hpadding: 6px;
+    -minimum-hpadding: 4px;
+    font-family: "Hack";
+    color: #ccc;
+    transition-duration: 100;
+}
+.panel-button:hover {
+    color: #ff5500;
+    font-weight: bold;
+
+}
+
+#dock {
+	background-color: #010101;
+	border-width: 5px;
+}
+
+.slider {
+	-slider-active-background-color: #ff5500;
+	-slider-border-width: 5px;
+	-slider-active-border-color: #000000;
+}
+
+/* Application Switcher Conf (ALT TAB)
+.switcher-list .item-box:selected {
+	background-color: #ff5500;
+	color: #ffffff;
+}
+
+/* Workspace Switcher (BTTM LFT) */
+.ws-switcher-box {
+	border: 1px solid #f4a142;
+}
+
+
+.workspace-switcher {
+	background: #f4a142;
+}
